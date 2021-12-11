@@ -8,20 +8,70 @@
   @font-face { font-family: Quicksand; font-weight: 300; src: url('fonts/quicksand/Quicksand-Medium.ttf'); }
   @font-face { font-family: Quicksand; font-weight: 400; src: url('fonts/quicksand/Quicksand-SemiBold.ttf'); }
   @font-face { font-family: Quicksand; font-weight: 500; src: url('fonts/quicksand/Quicksand-Bold.ttf'); }
-
+  body {
+    background-color: #f0f0f0;
+  }
   h1 {
     font-family: Quicksand;
     font-weight: 500;
-    font-size: 300%; 
+    font-size: 300%;
+    padding: 30px; 
+    margin-left: 50px
   }
+
+  .container {
+    display: block;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #1f1f1f;
+    box-shadow: 0px 0px 10px #b6b6b6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;  
+    padding-right: 20px;
+  }
+
+  .thumbnail {
+    
+    font-family: Quicksand;
+    font-weight: 500;
+    font-size: 400%;
+    
+    display: inline-block;
+    text-align: left;
+    
+  }
+
+  .title {
+    font-family: Quicksand;
+    font-weight: 500;
+    font-size: 400%;
+    display: inline-block;
+    text-align: right;
+  }
+  img {
+    width: auto;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #b6b6b6;
+  }
+
  </style>
 </head>
 <body>
 
 <h1>Skins</h1>
-<p>This is a paragraph.</p>
 
-<a href="https://github.com/saokaosu/skins/blob/gh-pages/osk/tranquil-sublimity.osk?raw=true">tranquil sublimity</a>
+
+
+
+<div class="container">
+  <a href="https://github.com/saokaosu/skins/blob/gh-pages/osk/tranquil-sublimity.osk?raw=true">tranquil sublimity</a>
+  <div class="thumbnail" id="div-0"><img src="thumbnails/tranquil-sublimity.jpg" alt="tranquil-sublimity"></div>
+  <div class="title" id="div-1">hello</div>
+</div><br>
 
 
 </body>
